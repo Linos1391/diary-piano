@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="piano_note_white_width">64dp</dimen>
+    <dimen name="piano_note_dark_width">40dp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_main">#E4F9F5</color>
+    <color name="bg_heading">#112D4E</color>
+    <color name="bg_item">#DBE2EF</color>
+    <color name="bg_highlight">#3F72AF</color>
+    <color name="text">#222222</color>
+    <color name="note_pressed">#CCCCCC</color>
+</resources>

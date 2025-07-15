@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/piano_c"
+        android:layout_width="@dimen/piano_note_white_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_white_note"
+        android:contentDescription="@string/description_piano_c"
+        app:layout_constraintDimensionRatio="2:9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/piano_d"
+        android:layout_width="@dimen/piano_note_white_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_white_note"
+        android:contentDescription="@string/description_piano_d"
+        app:layout_constraintDimensionRatio="2:9"
+        app:layout_constraintStart_toEndOf="@+id/piano_c"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/piano_e"
+        android:layout_width="@dimen/piano_note_white_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_white_note"
+        android:contentDescription="@string/description_piano_e"
+        app:layout_constraintDimensionRatio="2:9"
+        app:layout_constraintStart_toEndOf="@id/piano_d"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/piano_f"
+        android:layout_width="@dimen/piano_note_white_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_white_note"
+        android:contentDescription="@string/description_piano_f"
+        app:layout_constraintDimensionRatio="2:9"
+        app:layout_constraintStart_toEndOf="@id/piano_e"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/piano_g"
+        android:layout_width="@dimen/piano_note_white_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_white_note"
+        android:contentDescription="@string/description_piano_g"
+        app:layout_constraintDimensionRatio="2:9"
+        app:layout_constraintStart_toEndOf="@id/piano_f"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/piano_a"
+        android:layout_width="@dimen/piano_note_white_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_white_note"
+        android:contentDescription="@string/description_piano_a"
+        app:layout_constraintDimensionRatio="2:9"
+        app:layout_constraintStart_toEndOf="@id/piano_g"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/piano_b"
+        android:layout_width="@dimen/piano_note_white_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_white_note"
+        android:contentDescription="@string/description_piano_b"
+        app:layout_constraintDimensionRatio="2:9"
+        app:layout_constraintStart_toEndOf="@id/piano_a"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/piano_c_sharp"
+        android:layout_width="@dimen/piano_note_dark_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_dark_note"
+        android:contentDescription="@string/description_piano_c_sharp"
+        app:layout_constraintDimensionRatio="1:5"
+        app:layout_constraintEnd_toEndOf="@id/piano_c"
+        app:layout_constraintStart_toStartOf="@id/piano_d"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/piano_d_sharp"
+        android:layout_width="@dimen/piano_note_dark_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_dark_note"
+        android:contentDescription="@string/description_piano_d_sharp"
+        app:layout_constraintDimensionRatio="1:5"
+        app:layout_constraintEnd_toEndOf="@id/piano_d"
+        app:layout_constraintStart_toStartOf="@id/piano_e"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/piano_f_sharp"
+        android:layout_width="@dimen/piano_note_dark_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_dark_note"
+        android:contentDescription="@string/description_piano_f_sharp"
+        app:layout_constraintDimensionRatio="1:5"
+        app:layout_constraintEnd_toEndOf="@id/piano_f"
+        app:layout_constraintStart_toStartOf="@id/piano_g"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/piano_g_sharp"
+        android:layout_width="@dimen/piano_note_dark_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_dark_note"
+        android:contentDescription="@string/description_piano_g_sharp"
+        app:layout_constraintDimensionRatio="1:5"
+        app:layout_constraintEnd_toEndOf="@id/piano_g"
+        app:layout_constraintStart_toStartOf="@id/piano_a"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/piano_a_sharp"
+        android:layout_width="@dimen/piano_note_dark_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_dark_note"
+        android:contentDescription="@string/description_piano_a_sharp"
+        app:layout_constraintDimensionRatio="1:5"
+        app:layout_constraintEnd_toEndOf="@id/piano_a"
+        app:layout_constraintStart_toStartOf="@id/piano_b"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/current_group"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/piano_current_group"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/piano_c"
+        app:layout_constraintEnd_toEndOf="@+id/piano_c"
+        app:layout_constraintStart_toStartOf="@id/piano_c" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

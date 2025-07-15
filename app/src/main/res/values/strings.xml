@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Diary Piano</string>
+    <string name="diary_home_empty_text">There is no diary available, try create one!</string>
+    <string name="title_activity_diary_note">DiaryNote</string>
+    <string name="diary_home_item_title">Title</string>
+    <string name="diary_home_item_time">Time</string>
+    <string name="diary_note_fulfill">How is it going?</string>
+    <string name="diary_note_hint">Type something here</string>
+    <string name="app_name_fake">Dear Piano</string>
+    <string name="piano_current_group">C8</string>
+    <string name="piano_board_left"><![CDATA[<]]></string>
+    <string name="piano_board_right"><![CDATA[>]]></string>
+    <string name="piano_button_tutorial">\?</string>
+    <string name="piano_button_done">Done</string>
+    <string name="piano_button_del">Del</string>
+    <string name="piano_button_exit">X</string>
+    <string name="piano_button_double">×1</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/piano_a0"
+        android:layout_width="@dimen/piano_note_white_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_white_note"
+        android:contentDescription="@string/description_piano_c"
+        app:layout_constraintDimensionRatio="2:9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/piano_b0"
+        android:layout_width="@dimen/piano_note_white_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_white_note"
+        android:contentDescription="@string/description_piano_d"
+        app:layout_constraintDimensionRatio="2:9"
+        app:layout_constraintStart_toEndOf="@+id/piano_a0"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/piano_a_sharp0"
+        android:layout_width="@dimen/piano_note_dark_width"
+        android:layout_height="0dp"
+        android:background="@drawable/piano_dark_note"
+        android:contentDescription="@string/description_piano_c_sharp"
+        app:layout_constraintDimensionRatio="1:5"
+        app:layout_constraintEnd_toEndOf="@+id/piano_a0"
+        app:layout_constraintStart_toStartOf="@+id/piano_b0"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

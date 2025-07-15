@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description_diary_home_add_empty">Add new diary</string>
+    <string name="description_diary_home_arrow">An arrow points to `diary_home_add`</string>
+    <string name="description_diary_home_item_fulfill">An image that shows fulfill percent of the date</string>
+    <string name="description_diary_note_back">Return to home</string>
+    <string name="description_diary_note_fulfill_1">Indicating fulfill-ness of 1</string>
+    <string name="description_diary_note_fulfill_2">Indicating fulfill-ness of 2</string>
+    <string name="description_diary_note_fulfill_3">Indicating fulfill-ness of 3</string>
+    <string name="description_diary_note_fulfill_4">Indicating fulfill-ness of 4</string>
+    <string name="description_diary_note_fulfill_5">Indicating fulfill-ness of 5</string>
+    <string name="description_diary_note_delete">Delete this note</string>
+    <string name="description_diary_home_add">Add new diary</string>
+    <string name="description_diary_home_setting">Open setting panel</string>
+    <string name="description_piano_scrollview">The scrollview that stores piano</string>
+    <string name="description_piano_double">Toggle double boards</string>
+    <string name="description_piano_c">The piano note of C</string>
+    <string name="description_piano_c_sharp">The piano note of C#</string>
+    <string name="description_piano_d">The piano note of D</string>
+    <string name="description_piano_d_sharp">The piano note of D#</string>
+    <string name="description_piano_e">The piano note of E</string>
+    <string name="description_piano_f">The piano note of F</string>
+    <string name="description_piano_f_sharp">The piano note of F#</string>
+    <string name="description_piano_g">The piano note of G</string>
+    <string name="description_piano_g_sharp">The piano note of G#</string>
+    <string name="description_piano_a">The piano note of A</string>
+    <string name="description_piano_a_sharp">The piano note of A#</string>
+    <string name="description_piano_b">The piano note of B</string>
+</resources>
