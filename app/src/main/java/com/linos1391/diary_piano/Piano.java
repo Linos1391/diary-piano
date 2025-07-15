@@ -176,7 +176,7 @@ public class Piano extends AppCompatActivity {
                 public void onGlobalLayout() {
                     int width = scrollview.getMeasuredWidth();
                     resizeNotes(mainView, width, scrollview.getMeasuredHeight());
-                    setScrollView(mainView, width/3);
+                    setScrollView(mainView, width/9);
                     if (vto.isAlive()) { // Double check.
                         vto.removeOnGlobalLayoutListener(this);
                     }
