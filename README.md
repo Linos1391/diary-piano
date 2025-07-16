@@ -20,6 +20,8 @@ P/S: Actually, I created this app while preparing for AP CSA Exam. Welp, now I u
 
 ## Tutorial
 
+Download APK file [here](https://github.com/Linos1391/diary-piano/releases/download/2025.7.15/DiaryPiano.apk).
+
 ### 1. Main Screen
 
 <img height="200" alt="screenshot_1" src="https://github.com/user-attachments/assets/77e52332-3fc9-413c-9444-1e3feb0bb5fc" />
@@ -27,8 +29,6 @@ P/S: Actually, I created this app while preparing for AP CSA Exam. Welp, now I u
 - There is a button (`×1`) that help switching from 1 to 2 boards and vice versa.
 - Piano board is straight forward. Use arrow to move, click on notes the play.
 - Password is Konami Code (`C#1-C#1-C1-C1-B0-D1-B0-D1-B0-A0`)
-
-<br>
 
 ### 2. Edit Password
 
@@ -41,8 +41,6 @@ P/S: Actually, I created this app while preparing for AP CSA Exam. Welp, now I u
   - (`X`): Cancel and return to piano layout.
 - Press on a note to write in.
   - *Notice:* Note group is recorded chronically. I recommend using song that has one note at a time.
-
-<br>
 
 ### 3. Diary
 
