@@ -46,8 +46,8 @@ P/S: Actually, I created this app while preparing for AP CSA Exam. Welp, now I u
 
 ### 3. Diary
 
-<img height="200" alt="screenshot_3" src="https://github.com/user-attachments/assets/600004a8-1b2d-4ebf-9f8e-ced0249c425a" />
-<img height="200" alt="screenshot_4" src="https://github.com/user-attachments/assets/be71f421-b96a-41e0-9901-cbceedd0948e" />
+<img height="400" alt="screenshot_3" src="https://github.com/user-attachments/assets/600004a8-1b2d-4ebf-9f8e-ced0249c425a" />
+<img height="400" alt="screenshot_4" src="https://github.com/user-attachments/assets/be71f421-b96a-41e0-9901-cbceedd0948e" />
 
 - Just create a diary and type in what you want, then select your fulfill options.
 - Delete diary by pressing the garbage can.
